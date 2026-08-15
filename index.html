@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EchoAI — Support</title>
+<meta name="description" content="EchoAI support — an echocardiography reference for clinicians: ASE, BSE and EACVI guideline values, standard TTE and TOE views, calculators and diagnostic algorithms.">
+<style>
+  :root {
+    --ink: #0B0B0C; --panel: #17171A; --line: #2A2A2E;
+    --text: #EDE7DC; --muted: rgba(237,231,220,0.62); --wheat: #E8C88C;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--ink); color: var(--text);
+    font-family: ui-rounded, "SF Pro Rounded", -apple-system, "Segoe UI", sans-serif;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 640px; margin: 0 auto; padding: 56px 24px 80px; }
+  .mark { display: block; margin-bottom: 18px; }
+  h1 { font-size: 2rem; letter-spacing: -0.5px; }
+  .tagline { color: var(--muted); margin: 6px 0 28px; }
+  h2 { font-size: 1.15rem; margin: 32px 0 10px; color: var(--wheat); }
+  h3 { font-size: 1rem; margin: 20px 0 4px; }
+  p, li { margin: 8px 0; font-size: 0.97rem; }
+  ul { padding-left: 22px; }
+  a { color: var(--wheat); font-weight: 600; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .panel {
+    background: var(--panel); border: 1px solid var(--line);
+    border-radius: 16px; padding: 18px 22px; margin: 18px 0;
+  }
+  .contact {
+    display: inline-block; background: var(--wheat); color: #1A1408;
+    padding: 10px 20px; border-radius: 999px; font-weight: 700; margin-top: 6px;
+  }
+  .contact:hover { text-decoration: none; opacity: 0.9; }
+  .note { color: var(--muted); font-size: 0.9rem; }
+  footer { margin-top: 52px; padding-top: 20px; border-top: 1px solid var(--line);
+           font-size: 0.85rem; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <svg class="mark" width="88" height="60" viewBox="0 0 88 60" aria-hidden="true">
+    <g fill="none" stroke="#E8C88C" stroke-width="1.6" stroke-linecap="round">
+      <path d="M44 4 L74 54 A34 34 0 0 1 14 54 Z" opacity="0.5"/>
+      <path d="M27 32 A20 20 0 0 0 61 32" opacity="0.75"/>
+      <path d="M32 44 A13 13 0 0 0 56 44" opacity="0.55"/>
+    </g>
+  </svg>
+
+  <h1>EchoAI</h1>
+  <p class="tagline">An echocardiography reference for clinicians — on iPhone, iPad and Mac.</p>
+
+  <div class="panel">
+    <p><strong>Need help, found an error in a value, or want a measurement added?</strong></p>
+    <p><a class="contact" href="mailto:davidwest@posteo.net?subject=EchoAI">Email support</a></p>
+    <p class="note">I read every message. For a suspected content error, please include the screen, the society selected, and the source you are comparing against — it makes the fix quick.</p>
+  </div>
+
+  <h2>What EchoAI does</h2>
+  <ul>
+    <li>Standard <strong>TTE and TOE study sequences</strong>, view by view, with probe position and adequacy criteria.</li>
+    <li><strong>Normal values and severity thresholds</strong> for chamber size, systolic and diastolic function, and valve disease.</li>
+    <li><strong>Structures → measurements → how to obtain them</strong>, so you can go from anatomy to technique.</li>
+    <li><strong>Calculators</strong>: AVA by continuity, RVSP, stroke volume and cardiac output, LV mass, E/e′, PISA/EROA, BSA.</li>
+    <li><strong>Interactive algorithms</strong> for diastolic function, aortic stenosis severity, and pulmonary hypertension probability.</li>
+  </ul>
+
+  <h2>Choosing your guideline society</h2>
+  <p>The society selector is the heart of the app. Pick <strong>ASE</strong>, <strong>BSE</strong> or <strong>EACVI</strong> in Settings, or from the badge in the top-right of any content screen, and every value, threshold and algorithm branch follows that society. Where the societies genuinely disagree, the value carries a small society tag so the difference is visible rather than hidden.</p>
+
+  <h2>Spelling</h2>
+  <p>Settings → Spelling switches between British and American medical spelling (oesophageal/esophageal, TOE/TEE). "Match device" follows your device region.</p>
+
+  <h2>Favourites and sync</h2>
+  <p>Tap the star on any screen to collect it on the Home tab. Favourites and settings sync through <strong>your own iCloud account</strong> when you are signed in, so they follow you between iPhone, iPad and Mac. Nothing is stored on a server I control.</p>
+
+  <h2>Appearance</h2>
+  <p>The app is dark by default — it is meant to be used in a dim echo lab. The machine tint (wheat, ice blue, copper, phosphor green, magenta, monochrome) mirrors the colour maps on echo machines and recolours the whole app.</p>
+
+  <h2>Common questions</h2>
+
+  <h3>Does it work offline?</h3>
+  <p>Yes. All content is bundled in the app; nothing needs a network connection.</p>
+
+  <h3>Is this a medical device?</h3>
+  <p>No. EchoAI is a reference tool for trained healthcare professionals. It summarises published guidelines and performs standard calculations. It does not provide diagnoses and is not a substitute for clinical judgement or the original guideline documents. Always verify critical values against the source publications and your local protocols.</p>
+
+  <h3>Where do the values come from?</h3>
+  <p>Each screen cites the guideline it follows for the selected society. Every value is checked against that source by a clinician before it ships.</p>
+
+  <h3>What about the AI features?</h3>
+  <p>Image and loop analysis using your own AI provider key is in development. When it arrives, it will be opt-in, use a key you supply, and be clearly separated from the guideline reference content.</p>
+
+  <h3>I found a value I disagree with.</h3>
+  <p>Please tell me. Guidelines are revised, and different institutions apply them differently — corrections with a citation are always welcome.</p>
+
+  <footer>
+    <p><a href="privacy.html">Privacy policy</a> · David West · <a href="mailto:davidwest@posteo.net?subject=EchoAI">davidwest@posteo.net</a></p>
+  </footer>
+</div>
+</body>
+</html>
