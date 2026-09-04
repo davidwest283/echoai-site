@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>EchoAI — Privacy Policy</title>
-<meta name="description" content="EchoAI privacy policy: no accounts, no analytics, no tracking, no patient data. Favourites and settings sync through your own iCloud.">
+<title>Parasternal — Privacy Policy</title>
+<meta name="description" content="Parasternal privacy policy: no accounts, no analytics, no tracking, no server. Images you send for analysis go straight from your device to the AI provider you choose.">
 <style>
   :root {
     --ink: #0B0B0C; --panel: #17171A; --line: #2A2A2E;
@@ -28,55 +28,67 @@
     background: var(--panel); border: 1px solid var(--line);
     border-radius: 16px; padding: 16px 20px; font-weight: 600; margin: 18px 0;
   }
+  .note-sm { color: var(--muted); font-size: 0.88rem; }
   footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line);
            font-size: 0.85rem; color: var(--muted); }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>EchoAI Privacy Policy</h1>
-  <p class="updated">Effective 15 August 2026</p>
+  <h1>Parasternal Privacy Policy</h1>
+  <p class="updated">Effective 5 September 2026</p>
 
-  <p class="tldr">The short version: EchoAI has no accounts, no ads, no analytics and no tracking. I collect nothing. Nothing you type into a calculator leaves your device, and no patient data should be entered into the app in the first place.</p>
+  <p class="tldr">The short version: Parasternal has no accounts, no ads, no analytics, no tracking and no server of mine. The reference works entirely offline. The one thing that ever leaves your device is an image you deliberately choose to have analysed — and it goes straight to the AI provider you connected, never through me.</p>
 
   <h2>What stays on your device</h2>
   <p>The entire reference — guideline values, views, formulae, calculators and algorithms — is bundled inside the app. It works with no network connection. Your chosen guideline society, spelling, appearance and machine tint are stored on your device.</p>
 
   <h2>iCloud sync</h2>
-  <p>If you are signed into iCloud, your favourites and settings sync through <strong>your own private iCloud storage</strong> so they appear on your other Apple devices. That data lives in your Apple account: I cannot see it, access it or retrieve it. Signing out of iCloud, or turning off iCloud for EchoAI in your device settings, keeps everything local.</p>
+  <p>If you are signed into iCloud, your favourites and settings sync through <strong>your own private iCloud storage</strong> so they appear on your other Apple devices. That data lives in your Apple account: I cannot see it, access it or retrieve it. Signing out of iCloud, or turning off iCloud for Parasternal in your device settings, keeps everything local.</p>
 
   <h2>Calculator inputs and patient data</h2>
-  <p>Values you type into a calculator are used to produce a result on screen and are not stored, transmitted or logged. EchoAI is not designed to hold patient records: please do not enter names, identifiers or any other patient-identifiable information.</p>
+  <p>Values you type into a calculator are used to produce a result on screen and are not stored, transmitted or logged. Parasternal is not designed to hold patient records: please do not enter names, identifiers or any other patient-identifiable information.</p>
 
-  <h2>Future AI analysis</h2>
-  <p>Image and loop analysis is in development and is not part of the app today. When it ships it will be opt-in and will use an AI provider key that you supply. In that case, the images you choose to analyse would be sent directly from your device to that provider under <em>their</em> privacy policy and terms — not through any server of mine. This page will be updated before that feature is released.</p>
+  <h2>Images you choose to analyse</h2>
+  <p>The Analysis tab is the only part of the app that sends anything off your device, and it does so only when you pick an image or a loop and ask for a reading. It does nothing at all until you connect an AI account of your own.</p>
+  <p>What is sent — the still, or the frames sampled from a loop, plus any question you type alongside it — goes <strong>directly from your device to the AI provider you configured</strong>, using the API key you supplied. It does not pass through me. I have no server, receive no copy, and cannot see what you send or what comes back.</p>
+  <p>That provider is your account, not mine. What happens to an image after it arrives is governed by <em>their</em> terms, not by this app or this policy. Some providers retain what they receive, and some use it to improve their models — free and trial tiers in particular. Check the terms of the provider you choose before sending anything you would not want retained.</p>
+  <p>A loop never leaves as video. It is reduced to a few still frames on your device first, and the app shows you the exact frames that will be sent before you send them.</p>
 
-  <h2>What EchoAI does not do</h2>
+  <h2>Your API key</h2>
+  <p>Your key is held in your device's Keychain, marked so it is not included in backups and does not sync to your other devices. It is sent only to the provider it belongs to, and you can remove it in the app at any time. Because it does not sync, connecting a second device means entering it again there — that is deliberate.</p>
+
+  <h2>Patient data</h2>
+  <p>Do not send identifiable patient data unless your own information-governance rules allow it, and never on a shared or trial account. The app asks you to confirm you understand this once, before the first image is sent, and names the destination on that screen. Be aware that many ultrasound machines burn the patient's name and identifiers into the image itself, where removing the file's metadata will not remove them.</p>
+
+  <h2>What Parasternal does not do</h2>
   <ul>
     <li>No accounts, profiles or sign-ins</li>
     <li>No analytics, telemetry or crash reporting</li>
     <li>No advertising or advertising identifiers</li>
-    <li>No third-party SDKs</li>
+    <li>No third-party SDKs — the app talks to your AI provider directly, with no vendor code embedded in it</li>
+    <li>No server of mine anywhere in the path</li>
     <li>No collection, sale or sharing of personal data with anyone</li>
   </ul>
+  <p class="note-sm">The App Store privacy label lists <em>User Content</em> as collected. That is the image you choose to send, declared because it does leave your device — not because I receive it. I do not.</p>
 
   <h2>Purchases</h2>
-  <p>EchoAI is a paid app bought through the App Store. Apple handles the transaction; I receive sales figures from Apple, never payment details or your identity.</p>
+  <p>Parasternal is a paid app bought through the App Store. Apple handles the transaction; I receive sales figures from Apple, never payment details or your identity.</p>
 
   <h2>Clinical use</h2>
-  <p>EchoAI is a reference tool for trained healthcare professionals. It is not a medical device, does not provide diagnoses, and is not a substitute for clinical judgement or the original guideline documents. Values shown depend on the guideline society selected in the app and should be verified against the cited source and your local protocols.</p>
+  <p>Parasternal is a reference tool for trained healthcare professionals. It is not a medical device, does not provide diagnoses, and is not a substitute for clinical judgement or the original guideline documents. Values shown depend on the guideline society selected in the app and should be verified against the cited source and your local protocols.</p>
 
   <h2>Children</h2>
-  <p>EchoAI is intended for healthcare professionals and does not knowingly collect personal information from anyone, including children.</p>
+  <p>Parasternal is intended for healthcare professionals and does not knowingly collect personal information from anyone, including children.</p>
 
   <h2>Changes</h2>
   <p>If this policy changes, the new version will appear on this page with an updated effective date.</p>
 
   <h2>Contact</h2>
-  <p>David West — <a href="mailto:davidwest@posteo.net?subject=EchoAI%20privacy">davidwest@posteo.net</a></p>
+  <p>David West — <a href="mailto:davidwest@posteo.net?subject=Parasternal%20privacy">davidwest@posteo.net</a></p>
 
   <footer>
-    <p><a href="index.html">← EchoAI support</a></p>
+    <p><a href="index.html">← Parasternal support</a></p>
   </footer>
 </div>
 </body>

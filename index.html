@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>EchoAI — Support</title>
-<meta name="description" content="EchoAI support — an echocardiography reference for clinicians: ASE, BSE and EACVI guideline values, standard TTE and TOE views, calculators and diagnostic algorithms.">
+<title>Parasternal — Support</title>
+<meta name="description" content="Parasternal support — an echocardiography reference for clinicians: ASE, BSE and EACVI guideline values, standard TTE and TOE views, calculators, diagnostic algorithms, and optional image analysis with your own AI key.">
 <style>
   :root {
     --ink: #0B0B0C; --panel: #17171A; --line: #2A2A2E;
@@ -51,22 +51,23 @@
     </g>
   </svg>
 
-  <h1>EchoAI</h1>
+  <h1>Parasternal</h1>
   <p class="tagline">An echocardiography reference for clinicians — on iPhone, iPad and Mac.</p>
 
   <div class="panel">
     <p><strong>Need help, found an error in a value, or want a measurement added?</strong></p>
-    <p><a class="contact" href="mailto:davidwest@posteo.net?subject=EchoAI">Email support</a></p>
+    <p><a class="contact" href="mailto:davidwest@posteo.net?subject=Parasternal">Email support</a></p>
     <p class="note">I read every message. For a suspected content error, please include the screen, the society selected, and the source you are comparing against — it makes the fix quick.</p>
   </div>
 
-  <h2>What EchoAI does</h2>
+  <h2>What Parasternal does</h2>
   <ul>
     <li>Standard <strong>TTE and TOE study sequences</strong>, view by view, with probe position and adequacy criteria.</li>
     <li><strong>Normal values and severity thresholds</strong> for chamber size, systolic and diastolic function, and valve disease.</li>
     <li><strong>Structures → measurements → how to obtain them</strong>, so you can go from anatomy to technique.</li>
     <li><strong>Calculators</strong>: AVA by continuity, RVSP, stroke volume and cardiac output, LV mass, E/e′, PISA/EROA, BSA.</li>
     <li><strong>Interactive algorithms</strong> for diastolic function, aortic stenosis severity, and pulmonary hypertension probability.</li>
+    <li><strong>Optional image analysis</strong> using an AI account you connect yourself — a still or a short loop, read as description and suggestion for you to confirm.</li>
   </ul>
 
   <h2>Choosing your guideline society</h2>
@@ -87,19 +88,26 @@
   <p>Yes. All content is bundled in the app; nothing needs a network connection.</p>
 
   <h3>Is this a medical device?</h3>
-  <p>No. EchoAI is a reference tool for trained healthcare professionals. It summarises published guidelines and performs standard calculations. It does not provide diagnoses and is not a substitute for clinical judgement or the original guideline documents. Always verify critical values against the source publications and your local protocols.</p>
+  <p>No. Parasternal is a reference tool for trained healthcare professionals. It summarises published guidelines and performs standard calculations. It does not provide diagnoses and is not a substitute for clinical judgement or the original guideline documents. Always verify critical values against the source publications and your local protocols.</p>
 
   <h3>Where do the values come from?</h3>
   <p>Each screen cites the guideline it follows for the selected society. Every value is checked against that source by a clinician before it ships.</p>
 
-  <h3>What about the AI features?</h3>
-  <p>Image and loop analysis using your own AI provider key is in development. When it arrives, it will be opt-in, use a key you supply, and be clearly separated from the guideline reference content.</p>
+  <h3>How does the image analysis work?</h3>
+  <p>It is optional and does nothing until you connect an AI account of your own — Anthropic, OpenAI, Google, Mistral, xAI, or a model running on your own hardware. There is no default provider and no server of mine: you supply a key, and the image goes straight from your device to that provider. Nothing is sent until you pick an image and ask for a reading.</p>
+  <p>A loop is reduced to a handful of still frames on your device first, and you see exactly which frames will be sent. Output is worded as description and suggestion for you to confirm — never a diagnosis, a severity grade, or management advice.</p>
+
+  <h3>Which model should I use?</h3>
+  <p>Whichever your account gives you, so long as it can read images — the app lists what your key can reach and lets you pick from that list, rather than making you type a model name. Costs are billed by your provider directly; I see none of it.</p>
+
+  <h3>Can I use it without an AI account?</h3>
+  <p>Yes. The reference, calculators and algorithms — the bulk of the app — work entirely offline and need no key. The Analysis tab simply stays switched off.</p>
 
   <h3>I found a value I disagree with.</h3>
   <p>Please tell me. Guidelines are revised, and different institutions apply them differently — corrections with a citation are always welcome.</p>
 
   <footer>
-    <p><a href="privacy.html">Privacy policy</a> · David West · <a href="mailto:davidwest@posteo.net?subject=EchoAI">davidwest@posteo.net</a></p>
+    <p><a href="privacy.html">Privacy policy</a> · David West · <a href="mailto:davidwest@posteo.net?subject=Parasternal">davidwest@posteo.net</a></p>
   </footer>
 </div>
 </body>
